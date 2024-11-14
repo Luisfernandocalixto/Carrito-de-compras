@@ -16,7 +16,8 @@ export const ComprasPage = () => {
 
     return (
         <>
-            <h1>Compras:</h1>
+            <br />
+            <h1 className="mt-5">Compras:</h1>
             <hr />
             {productos.map(producto => (
                 <Card

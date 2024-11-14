@@ -1,6 +1,7 @@
 /* Estilos para la tarjeta */
 .tarjeta {
     display: flex;
+    flex-wrap: wrap;
     border: 1px solid #ccc;
     border-radius: 4px;
     padding: 10px;
@@ -64,4 +65,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+@media (width < 500px) {
+    .tarjeta  {
+        display: flex;
+        place-content: center;
+    }
+
 }
